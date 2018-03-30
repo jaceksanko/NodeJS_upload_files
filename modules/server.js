@@ -19,10 +19,10 @@ function start() {
    			handlers.upload(request, response);
    			break;
    		case "/show":
-   			handlers.upload(request, response);
+   			handlers.show(request, response);
    			break;
    		default:
-   			handlers.upload(request, response);
+   			handlers.error(request, response);
    	}
   }
 
